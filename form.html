@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body style="text-align: center; background-image: url(images/kakashi.jpeg.jpeg); background-repeat: no-repeat; background-size: cover;">
+    <form action="action_page.php" method="post">
+        <div>
+            <label for="fname"><b>Firstname:</b></label><br>
+            <input type="text" id="fname" name="fname" placeholder="Abdullah" required>
+        </div>
+        <br>
+        <div>
+            <label for="lname"><b>Lastname:</b></label><br>
+            <input type="text" id="lname" name="lname" placeholder="Aro" required>
+        </div>
+        <br>
+        <div>
+            <label for="mname"><b>Middlename:</b></label><br>
+            <input type="text" id="mname" name="mname" placeholder="Eniola" required>
+        </div>
+        <br>
+        <div>
+            <label for="email"><b>Email:</b></label><br>
+            <input type="email" id="email" name="email" placeholder="examle123@gmail.com" required>
+        </div>
+        <br>
+        <div>
+            <label for="uname"><b>Username:</b></label><br>
+            <input type="text" id="uname" name="uname" placeholder="Vistro470" required>
+        </div>
+        <br>
+        <div>
+            <label for="pass"><b>Password:</b></label><br>
+            <input type="password" id="pass" name="pass" maxlength="11" required>
+        </div>
+        <br>
+        <div>
+            <label for="bdate"><b>Birthdate:</b></label><br>
+            <input type="date" name="bdate" id="bdate" required>
+        </div>
+        <br>
+        <div>
+            <label for="phone"><b>Phone:</b></label><br>
+            <input type="tel" id="phone" name="phone" max="11" value="+234" required>
+        </div>
+        <br>
+        <div>
+            <label for="age"><b>Age:</b></label><br>
+            <input type="number" id="age" name="age" min="15" max="25" value="15" required>
+        </div>
+        <br>
+        <div>
+            <label for="title"><b>Gender:</b></label>
+            
+            <label for="male"><b>Male</b></label>
+            <input type="radio" id="male" name="title" value="male">
+
+            <label for="fmale"><b>Female</b></label>
+            <input type="radio" id="fname" name="title" value="fname">
+
+            <label for="Mr."><b>Hermarphrodite</b></label>
+            <input type="radio" id="hermaphrodite" name="title" value="hermaphrodite">
+        </div>
+        <br>
+        <div>
+            <label for="qualification"><b>Qualification:</b></label>
+            <select name="qualification" id="qualification">
+                <option value="OND">OND</option>
+                <option value="HND">HND</option>
+                <option value="BSc.">BSc.</option>
+                <option value="MSc.">MSc.</option>
+                <option value="PhD.">PhD.</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="comment"><b>Comment:</b></label>
+            <textarea name="comment" id="comment" rows="4" cols="20"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="suscribe"><b>Suscribe:</b></label>
+            <input type="checkbox" id="suscribe">
+        </div>
+        <br>
+        <div>
+            <label for="file"><b>File:</b></label>
+            <input type="file" id="file">
+        </div>
+        <br>
+        <div>
+            <input type="Reset">
+        </div>
+        <br>
+        <div>
+            <input type="Submit">
+        </div>
+    </form>
+</body>
+</html>
